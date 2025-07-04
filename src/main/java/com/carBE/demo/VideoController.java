@@ -24,6 +24,8 @@ public class VideoController {
      */
     @PostMapping
     public ResponseEntity<Video> create(@RequestBody Video video) {
+    	System.out.println("the vide object is");
+    	System.out.println(video);
         Video saved = videoRepository.save(video);
         return ResponseEntity.status(HttpStatus.CREATED).body(saved);
     }
