@@ -1,4 +1,4 @@
-package com.carBE.demo;
+package com.carBE.demo.dto;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
